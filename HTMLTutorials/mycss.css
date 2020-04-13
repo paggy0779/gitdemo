@@ -1,0 +1,43 @@
+p{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:red
+}
+div{
+        font-weight: bold;
+        color:brown;
+        padding: 5px;
+        
+}
+#parent
+{
+    padding-left: 700;
+    padding-top: 200;
+    width:300;
+    
+}
+#login
+        {
+            background-color: cyan;
+            border:5px solid red;
+        }
+.logincontrols
+{
+    background-color: darkgoldenrod;
+}
+.loginfonts
+{
+    font-style: italic;
+    color:blue;
+    font-size: large;
+
+}
+input{
+    border-radius: 15%;
+}
+.button
+{
+    background-color: blue;
+    color:white
+}

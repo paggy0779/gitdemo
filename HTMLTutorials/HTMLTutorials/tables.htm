@@ -1,0 +1,55 @@
+<head>
+    <style>
+        table{
+            background-image: url("sunset.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: center;
+        }
+        table,th,td{
+            /*border: 3px solid red;*/
+            background-color: transparent;
+            border-bottom: 1px solid blue;
+        }
+
+        .columnheader{
+            background-color: yellow;
+        }
+
+        tr:hover {background-color: red;}
+
+    </style>
+</head>
+<marquee bgcolor="yellow"
+direction="right"
+scrollamount="50"
+behavior="alternate"
+><img src="result.jpg" height="30" width="200"/></marquee>
+<table  width="70%"  
+    cellspacing=10 height="70%">
+    <tr>
+        <th class="columnheader" colspan="3" bgcolor="tomato">Marksheet</th>
+    </tr>
+    <tr>
+        <td valign="middle" align="center" bgcolor="aqua">
+            <b>Subjects</b>
+        </td>
+        <th bgcolor="aqua">Marks</th>
+        <th bgcolor="aqua">Result</th>
+    </tr>
+    <tr>
+        <td> Physics</td>
+        <td> 45</td>
+        <th rowspan="3" bgcolor="white"> Pass</th>
+    </tr>
+    <tr>
+        <td> Chemistry</td>
+        <td> 40 </td>
+
+    </tr>
+    <tr>
+        <td> Maths </td>
+        <td> 25</td>
+
+    </tr>
+</table>

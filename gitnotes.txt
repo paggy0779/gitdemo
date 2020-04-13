@@ -1,0 +1,10 @@
+1. Initialize
+2. Add
+3. Commit
+4. pull
+5. push
+
+advance features
+1. Branching
+2. Merging
+3. Rebasing

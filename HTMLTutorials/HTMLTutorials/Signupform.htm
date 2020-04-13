@@ -1,0 +1,122 @@
+<!--
+Text
+Password
+Textarea
+email
+number
+radio
+checkbox
+select - single choice
+select - multiple choice
+audio 
+video
+file
+range 
+button -> Submit,Reset,button
+-->
+<form onsubmit="alert('signup called')">
+<table border="1" align="center" width="60%" bgcolor="tomato">
+    <tr>
+        <th colspan="2"> Signup Form </th>
+    </tr>
+    <tr>
+        <td>Username</td>
+        <td><input type="text" name="username" maxlength="15" autofocus required placeholder="Enter your username" />
+        </td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password" name="userpassword" required placeholder="Enter strong password" /></td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><textarea name="address" rows="4" cols="22"></textarea></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="email" placeholder="Enter your email" /></td>
+    </tr>
+    <tr>
+        <td>Mobile</td>
+        <td><input type="number" name="mobile" placeholder="enter your mobile" /></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="gender" /> Male
+            <input type="radio" name="gender" checked /> Female
+            <input type="radio" name="gender" /> Transgender
+        </td>
+    </tr>
+    <tr>
+        <td>Education</td>
+        <td>
+            <input type="checkbox" name="education" /> Diploma
+            <input type="checkbox" name="education" /> Graduate
+            <input type="checkbox" name="education" /> Post Graduate
+            <input type="checkbox" name="education" /> Doctorate
+        </td>
+    </tr>
+    <tr>
+        <td>Country of Residence</td>
+        <td>
+            <select name="country">
+                <option>India</option>
+                <option>Japan</option>
+                <option selected>Sweden</option>
+                <option>South Korea</option>
+                <option>Singapore</option>
+                <option>United Kingdom</option>
+                <option>United States of America</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td>My Hobbies</td>
+        <td>
+            <select name="hobbies" multiple>
+                <option>Singing</option>
+                <option>Reading Books</option>
+                <option selected>Travelling</option>
+                <option>Trekking</option>
+                <option>Swimming</option>
+                <option>Chatting</option>
+                <option>Dancing</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td> Date of Birth </td>
+        <td><input type="date" name="dob" /></td>
+    </tr>
+    <tr>
+        <td> My Salary </td>
+        <td>5000<input type="range" name="salary" min="5000" max="1000000" />1000000</td>
+    </tr>
+    <tr>
+        <td> My Profile Photo </td>
+        <td><input type="file" name="upload" /></td>
+    </tr>
+
+    <tr>
+        <td>Audio Control</td>
+        <td><audio controls loop>
+            <source src="Death Grips - Get Got.mp3"/>
+        </audio></td>
+    </tr>
+    <tr>
+        <td>Video Control</td>
+        <td><video controls width="400" height="200" loop>
+            <source src="BirdNoSound.mp4"/>
+        </video></td>
+    </tr>
+    <tr> 
+        <td align="right">
+            <!-- <input type ="submit" value="Signup"/> -->
+            <button type="submit">Signup</button>
+        </td>
+        <td>
+            <!-- <input type="reset"/> -->
+            <button type="reset"> Clear </button>
+        </td>
+    </tr>
+</table>
+</form>

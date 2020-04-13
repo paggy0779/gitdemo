@@ -1,0 +1,58 @@
+<!-- CSS - Cascading Style Sheets
+There are 3 types of style Sheets
+1. Inline - Style property in any html tag
+2. Internal - <style></style>
+3. External - css in .css file and then include the .css inside the html page using <link>
+
+Stylesheet has property and value;
+Internal/External stylesheet we will require a selector
+selectors are of 3 types:
+1. Element
+2. Id
+3. Class
+ -->
+
+<head>
+    <link href="mycss.css" rel="stylesheet" />
+    <style>
+    p {
+    color: yellow;
+    background-color: lightblue;
+    border-top: 1px solid purple;
+    text-align: right;
+}
+h1{
+    text-align: center;
+    color:darkorange
+}
+       
+</style>
+</head>
+
+<p style="text-align:center;border-top:4px dotted black;border-bottom: double red;">
+    Basics of CSS , Demo of Inline Stylesheet
+</p>
+<p>
+    Basics of CSS , Demo of Internal Stylesheet
+</p>
+<p>
+    Basics of CSS , Demo of Internal Stylesheet1
+</p>
+
+<div id="parent">
+    <div id="login">
+    <h1>Login Panel</h1>
+    </div>
+    <div class="logincontrols loginfonts">
+        username : <input id="username" class=" logincontrols loginfonts" type="text" name="username"/>
+    </div>
+    <div class="logincontrols loginfonts">
+        password : <input id="password" type="password" id="login" class="loginfonts" name="password"/>
+    </div>
+    <div id="login">
+        <button class="button" type="submit">Login</button>
+    </div>
+</div>
+
+
+
