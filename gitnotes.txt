@@ -7,4 +7,9 @@
 advance features
 1. Branching
 2. Merging
-3. Rebasing
+3. 
+
+
+git add file
+git add directory
+git add -A
