@@ -13,3 +13,6 @@ advance features
 git add file
 git add directory
 git add -A
+git status
+git remote add origin https://github.com/paggy0779/gitdemo.git
+git push -u origin master
