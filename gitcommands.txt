@@ -1,0 +1,7 @@
+git init
+clear
+git remote add origin https://github.com/paggy0779/git-github.git 	
+git pull origin master	
+git status
+git add
+git commit
